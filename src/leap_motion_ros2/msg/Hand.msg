@@ -1,0 +1,17 @@
+uint8 LEFT=0
+uint8 RIGHT=1
+uint32 id
+uint8 type
+float32 confidence
+uint64 visible_time_us
+geometry_msgs/Pose palm
+geometry_msgs/Vector3 palm_velocity
+geometry_msgs/Vector3 palm_normal
+geometry_msgs/Vector3 direction
+float32 palm_width
+float32 pinch_distance
+float32 pinch_strength
+float32 grab_angle
+float32 grab_strength
+leap_motion_ros2/Finger[5] fingers
+leap_motion_ros2/Bone arm

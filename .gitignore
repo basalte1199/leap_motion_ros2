@@ -1,0 +1,7 @@
+build/
+install/
+log/
+vendor/
+__pycache__/
+src/leap_motion_ros2/include/LeapC.h
+src/leap_motion_ros2/include/ULTRALEAP-SDK-LICENSE.md
